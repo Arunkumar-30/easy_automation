@@ -48,14 +48,14 @@ export default function About() {
   return (
     <>
       {/* ══ PAGE HERO ════════════════════════════════════ */}
-      <section className="pt-40 lg:pt-40 pb-20 bg-gradient-to-br from-brand-dark to-brand-blue
+      <section className="pt-38 lg:pt-36 pb-20 bg-gradient-to-br from-brand-dark to-brand-blue
                           text-white relative overflow-hidden min-h-screen flex flex-col justify-center">
         <div className="absolute inset-0 bg-grid opacity-10" />
         {/* Ambient blobs */}
         <div className="absolute top-20 right-20 w-96 h-96 bg-brand-blue/20 rounded-full blur-3xl" />
         <div className="absolute bottom-10 left-10 w-64 h-64 bg-indigo-500/10 rounded-full blur-2xl" />
 
-        <div className="container-max relative z-10 w-full mt-10">
+        <div className="container-max relative z-10 w-full mt-10 pt-0 p-4">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
 
             {/* ── LEFT: Text Content ── */}
@@ -94,7 +94,7 @@ export default function About() {
             </div>
 
             {/* ── RIGHT: Animated Visual Panel ── */}
-            <div className="flex items-center justify-center relative h-[380px] md:h-[450px] lg:h-[520px] mt-10 lg:mt-0 w-full overflow-hidden sm:overflow-visible">
+            <div className="hidden lg:flex items-center justify-center relative h-[380px] md:h-[450px] lg:h-[520px] mt-10 lg:mt-0 w-full overflow-hidden sm:overflow-visible">
               <div className="relative w-full h-full flex items-center justify-center scale-[0.7] sm:scale-[0.85] md:scale-95 lg:scale-100 origin-center">
 
               {/* Outer slow-spinning dashed ring */}

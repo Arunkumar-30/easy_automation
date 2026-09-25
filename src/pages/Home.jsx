@@ -317,7 +317,7 @@ export default function Home() {
                }} />
         </div>
 
-        <div className="container-max w-full relative z-10">
+        <div className="container-max w-full relative z-10 p-4 pt-0">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
 
             {/* ── LEFT: Text Content ── */}
@@ -402,7 +402,7 @@ export default function Home() {
             </div>
 
             {/* ── RIGHT: Bold Visual Dashboard ── */}
-            <div className="relative mt-12 lg:mt-0 w-full flex justify-center max-w-full overflow-hidden sm:overflow-visible">
+            <div className="hidden lg:flex relative mt-12 lg:mt-0 w-full justify-center max-w-full overflow-hidden sm:overflow-visible">
               
               <div className="relative w-full max-w-[450px] scale-[0.8] sm:scale-95 lg:scale-100 origin-center">
                 {/* Glow behind the panel */}
@@ -690,7 +690,7 @@ export default function Home() {
         <div className="container-max relative z-10">
           <div className="text-center mb-14">
             <p className="section-subtitle text-brand-blueLight">Our Process</p>
-            <h2 className="section-title text-white">
+            <h2 className="section-title1">
               How We <span className="text-brand-blueLight">Work</span>
             </h2>
             <p className="text-gray-400 mt-4 max-w-xl mx-auto">
