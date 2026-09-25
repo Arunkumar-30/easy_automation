@@ -7,11 +7,13 @@ import Services from './pages/Services'
 import Projects from './pages/Projects'
 import ContactUs from './pages/ContactUs'
 import ScrollToTop from './components/ScrollToTop'
+import SeoHead from './components/SeoHead'
 
 export default function App() {
   return (
     <Router>
       <ScrollToTop />
+      <SeoHead />
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-1">
