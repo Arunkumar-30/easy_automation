@@ -14,18 +14,18 @@ const values = [
 ]
 
 const team = [
-  { name: 'krishnappa K.',  role: 'Founder & CEO',             initials: 'AS', expertise: 'Labview Data Acquisition & Signal Conditioning',   bg: 'from-brand-blue to-indigo-600' },
-  { name: 'Prabhu',      role: 'Head of Manager',        initials: 'DR', expertise: 'Application Engineer',   bg: 'from-violet-500 to-purple-600' },
-  { name: 'Samyvelu M.',     role: 'Ass of Manager',        initials: 'SM', expertise: 'Application Engineer',   bg: 'from-cyan-500 to-blue-600'     },
-  { name: 'Vijayakumar R.',    role: 'Sr.Application Engineer',     initials: 'KP', expertise: 'Sr.Application Engineer',       bg: 'from-green-500 to-teal-600'    },
-  { name: 'Shanmugaraj S.',     role: 'Sr.Application Engineer',  initials: 'VT', expertise: 'Sr.Application Engineer', bg: 'from-orange-500 to-amber-600'  },
-  { name: 'Arunkumar L.',     role: 'Application Engineer',             initials: 'NL', expertise: 'Application Engineer',     bg: 'from-pink-500 to-rose-600'     },
-  { name: 'Thangaraj P.',     role: 'Application Engineer',             initials: 'NL', expertise: 'Application Engineer',     bg: 'from-pink-500 to-rose-600'     },
-  { name: 'Naveenkumar .',     role: 'Application Engineer',             initials: 'NL', expertise: 'Application Engineer',     bg: 'from-pink-500 to-rose-600'     },
-  { name: 'Muthatamilselvan.',     role: 'Application Engineer',             initials: 'NL', expertise: 'Application Engineer',     bg: 'from-pink-500 to-rose-600'     },
-  { name: 'Harish.',     role: 'Application Engineer',             initials: 'NL', expertise: 'Application Engineer',     bg: 'from-pink-500 to-rose-600'     },
-  { name: 'Arunkumar S.',     role: 'Application Engineer',             initials: 'NL', expertise: 'Application Engineer',     bg: 'from-pink-500 to-rose-600'     },
-  { name: 'Shantini B.',     role: 'Accounts Executive ',             initials: 'NL', expertise: 'Accounts Executive ',     bg: 'from-pink-500 to-rose-600'     },
+  { name: 'Krishnappa K.',      role: 'Founder & CEO',            initials: 'KK', expertise: 'Labview Data Acquisition & Signal Conditioning', bg: 'from-brand-blue to-indigo-600' },
+  { name: 'Prabhu',             role: 'Manager',                  initials: 'P',  expertise: 'Project Execution & Strategy',                   bg: 'from-violet-500 to-purple-600' },
+  { name: 'Samyvelu M.',        role: 'Assistant Manager',        initials: 'SM', expertise: 'Control Systems & Planning',                     bg: 'from-cyan-500 to-blue-600' },
+  { name: 'Vijayakumar R.',     role: 'Sr. Application Engineer', initials: 'VR', expertise: 'PLC & SCADA Development',                        bg: 'from-green-500 to-teal-600' },
+  { name: 'Shanmugaraj S.',     role: 'Sr. Application Engineer', initials: 'SS', expertise: 'Process Automation',                             bg: 'from-orange-500 to-amber-600' },
+  { name: 'Arunkumar L.',       role: 'Application Engineer',     initials: 'AL', expertise: 'HMI Design & Integration',                       bg: 'from-pink-500 to-rose-600' },
+  { name: 'Thangaraj P.',       role: 'Application Engineer',     initials: 'TP', expertise: 'System Commissioning',                           bg: 'from-blue-400 to-indigo-500' },
+  { name: 'Naveenkumar',        role: 'Application Engineer',     initials: 'N',  expertise: 'Electrical Design',                              bg: 'from-amber-400 to-orange-500' },
+  { name: 'Muthatamilselvan',   role: 'Application Engineer',     initials: 'M',  expertise: 'Control Panel Wiring',                           bg: 'from-emerald-400 to-teal-500' },
+  { name: 'Harish',             role: 'Application Engineer',     initials: 'H',  expertise: 'Field Instrumentation',                          bg: 'from-fuchsia-500 to-pink-600' },
+  { name: 'Arunkumar S.',       role: 'Application Engineer',     initials: 'AS', expertise: 'Software Development',                           bg: 'from-red-400 to-rose-500' },
+  { name: 'Shantini B.',        role: 'Accounts Executive',       initials: 'SB', expertise: 'Finance & Operations',                           bg: 'from-indigo-400 to-violet-500' },
 ]
 
 const milestones = [
